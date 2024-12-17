@@ -1,348 +1,370 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: #e6f8f9;
-    font-family: 'Montserrat', serif;
-    line-height: 1.42857143;
-    margin: 0px;
-    text-align: center;
+  background-color: #e6f8f9;
+  font-family: "Montserrat", serif;
+  line-height: 1.42857143;
+  margin: 0px;
+  text-align: center;
 }
 
 div {
-    margin: 0 0 0 0;
+  margin: 0 0 0 0;
 }
 
 h1 {
-    color: #33cc33;
-    font-family: 'Sacramento', cursive;
-    font-size: 65px;
-    margin: 0 auto 0 auto;
-    width: 40%;
+  color: #33cc33;
+  font-family: "Sacramento", cursive;
+  font-size: 65px;
+  margin: 0 auto 0 auto;
+  width: 40%;
 }
 
 h2 {
-    color: #33cc33;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 34px;
-    width: 100%;
-    margin: auto;
+  color: #33cc33;
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  width: 100%;
+  margin: auto;
 }
 
 h4 {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 hr {
-    height: 2px;
-    border-color: grey;
-    border-style: dotted none none;
-    width: 5%;
-    border-width: 6px;
-    position: relative;
-    top: 80px;
-    bottom: 80px;
-    margin: 0 auto 0 auto;
+  height: 2px;
+  border-color: grey;
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 6px;
+  position: relative;
+  top: 80px;
+  bottom: 80px;
+  margin: 0 auto 0 auto;
 }
 
-
 span {
-    font-size: 16px;
-    margin: 0px;
-    color: #333;
+  font-size: 16px;
+  margin: 0px;
+  color: #333;
 }
 
 a {
-    text-decoration: none;
-    color: #333;
-    margin: auto;
+  text-decoration: none;
+  color: #333;
+  margin: auto;
 }
 
 section p {
-    font-size: 1.2rem;
-    line-height: 2.4rem;
-
-
+  font-size: 1.2rem;
+  line-height: 2.4rem;
 }
 
 .link:hover {
-    /* text-shadow: 2px 2px 5px #3ACE3B; */
-    transition: 0.5s;
-    text-decoration: underline;
-    color: #333;
+  /* text-shadow: 2px 2px 5px #3ACE3B; */
+  transition: 0.5s;
+  text-decoration: underline;
+  color: #333;
 }
 
 /*/////////////////////////CLASSES//////////////////////*/
-.container{
-    margin: 150px 0px
+.container {
+  margin: 150px 0px;
 }
 .top-container {
-    margin: 0 0 0 0;
-    margin-top: 0px;
-    height: 90vh;
+  margin: 0 0 0 0;
+  margin-top: 0px;
+  height: 90vh;
 }
-ul, li{
-    text-align: start;
+ul,
+li {
+  text-align: start;
 }
 #life {
-    font-size: 20px;
-    margin: 0 auto 0 auto;
+  font-size: 20px;
+  margin: 0 auto 0 auto;
 }
 
 .mnt {
-    margin: 0 auto 0 auto;
-    position: absolute;
-    bottom: 00;
-    width: 86%;
-    left: 1%;
-    right: 1%;
+  margin: 0 auto 0 auto;
+  position: absolute;
+  bottom: 00;
+  width: 86%;
+  left: 1%;
+  right: 1%;
 
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.9, transparent), to(white));
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.9, transparent), to(white));
 }
 
 .middle-container {
-    background-color: #fcf9ec;
-    margin: 0px;
-    padding: 30px;
-    text-align: center;
-    padding-top: 90px;
-    padding-bottom: 70px;
+  background-color: #fcf9ec;
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
 }
 
 .user_pic {
-    border-radius: 10%;
-    height: 180px;
-    margin: 20px;
+  border-radius: 10%;
+  height: 180px;
+  margin: 20px;
 }
 
 .insight {
-    margin: auto;
-    padding: 5px;
-    width: 65%;
+  margin: auto;
+  padding: 5px;
+  width: 65%;
 }
 
 .bottom-container {
-    background-color: #fcf9ec;
-    margin: 0px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  background-color: #fcf9ec;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 .post-bottom-container {
-    background-color: #fcf9ec;
-    margin: 0px;
-    padding-top: 0px;
-    padding-bottom: 70px;
+  background-color: #fcf9ec;
+  margin: 0px;
+  padding-top: 0px;
+  padding-bottom: 70px;
 }
 
-.projects h4{
-    margin-top: 6px;
+.projects h4 {
+  margin-top: 6px;
 }
 
 #images {
-    margin: auto;
-    padding-top: 50px;
-    width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  width: 80%;
 }
 
 .iconBox .icons {
-    margin: 25px 45px;
-    height: 120px;
+  margin: 25px 45px;
+  height: 120px;
 }
 
 .iconBox {
-    vertical-align: top;
-    display: inline-block;
-    text-align: center;
-    /* width: 240px; */
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  /* width: 240px; */
 }
 .tech-stack .icons {
-    margin: 0px 13px;
-    height: 50px;
+  margin: 0px 13px;
+  height: 50px;
 }
-.tech-stack span{
-    display: inline-block;
-    margin: 15px 0px;
+.tech-stack span {
+  display: inline-block;
+  margin: 15px 0px;
 }
 
 .iconText {
-    margin: auto;
-    text-align: center !important;
-    visibility: hidden;
-    display: block;
+  margin: auto;
+  text-align: center !important;
+  visibility: hidden;
+  display: block;
 }
 
-.icons:hover+.iconText {
-    visibility: visible;
+.icons:hover + .iconText {
+  visibility: visible;
 }
-
 
 .head-container {
-    padding-top: 40px;
-    padding-bottom: 60px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 13px;
-    margin: 0px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 13px;
+  margin: 0px;
 }
 
 #nav-bar {
-    position: absolute;
-    right: 1%;
-    /*    left: 1%;*/
-    padding: 10 0 10 0;
-    float: right;
-    margin: auto;
+  position: absolute;
+  right: 1%;
+  /*    left: 1%;*/
+  padding: 10 0 10 0;
+  float: right;
+  margin: auto;
 }
 
 #nav-bar a {
-    font-size: 16px;
-    font-family: 'Montserrat', serif;
-    margin: 20px;
-    padding: 0px;
-    cursor: pointer;
+  font-size: 16px;
+  font-family: "Montserrat", serif;
+  margin: 20px;
+  padding: 0px;
+  cursor: pointer;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    left: -100%;
-    background-color: #7e5b33;
-    color: #ffffff;
-    border-radius: 8px;
-    padding: 12px 0px 12px 0px;
-    margin: 0 4px 4px 4px;
-    min-width: 180px;
-    max-width: auto;
-    -webkit-transition: 0.5s;
-    transition: 0.5s !important;
-    z-index: 1;
+  display: none;
+  position: absolute;
+  left: -100%;
+  background-color: #7e5b33;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 0px 12px 0px;
+  margin: 0 4px 4px 4px;
+  min-width: 180px;
+  max-width: auto;
+  -webkit-transition: 0.5s;
+  transition: 0.5s !important;
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: #ffffff;
-    font-weight: bolder;
+  color: #ffffff;
+  font-weight: bolder;
 }
 
 .dropdown-content a:hover {
-    color: #e7e7e7;
+  color: #e7e7e7;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
 }
-.showBtn{
-    border-radius: 5px;
-    margin-top: 20px;
-    padding: 5px;
+.showBtn {
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 5px;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
-
 .foot-container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13px;
-    margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  margin: auto;
 }
 
 #year {
-    font-size: 12px;
-    color: #333;
+  font-size: 12px;
+  color: #333;
 }
 
-.scroll-top{
-
+.scroll-top {
 }
-
 
 @media screen and (min-width: 200px) and (max-width: 768px) {
-    #nav-bar {
-        position: absolute;
-        right: 1%;
-        left: 1%;
-        padding: 10 0 10 0;
-    }
+  #nav-bar {
+    position: absolute;
+    right: 1%;
+    left: 1%;
+    padding: 10 0 10 0;
+  }
+  #images{
+    width: 90%
+  }
 
-    .icons {
-        margin: 20px 25px;
-        height: 84px;
-    }
+  #images .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: around;
+    margin-bottom: 100px;
+  }
+  
 
-    .iconText {
-        display: none;
-    }
+  .icons {
+    margin: 20px 25px;
+    height: 84px;
+  }
 
-    .top-container h1,
-    .top-container p {
-        position: absolute;
-        top: 110px;
-    }
+  .iconBox {
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
 
-    .top-container p {
-        top: 170px;
-        left: 1%;
-        right: 1%;
-    }
+  .iconBox .icons {
+    margin: 25px auto;
+    height: 120px;
+  }
 
+  .iconText {
+    display: none;
+  }
 
-    .top-container {
-        height: 88vh;
-    }
+  .tech-stack .icons {
+    margin: 10px 13px;
+    height: 50px;
+  }
 
-    .top-container h1 {
-        font-size: 12vw !important;
-        width: 100%;
-    }
+  .top-container h1,
+  .top-container p {
+    position: absolute;
+    top: 110px;
+  }
 
-    #life {
-        font-size: 17px;
-        margin: 0 auto 0 auto;
-    }
+  .top-container p {
+    top: 170px;
+    left: 1%;
+    right: 1%;
+  }
 
-    .mnt {
-        margin: 0 auto 0 auto;
-        position: absolute;
-        bottom: 180px;
-        width: 100%;
-        left: 1%;
-        right: 1%;
-        -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.5, transparent), to(white));
-    }
+  .top-container {
+    height: 88vh;
+  }
 
-    .insight {
-        margin: auto;
-        padding: 5px;
-        width: 90%;
-        line-height: 2rem
-    }
+  .top-container h1 {
+    font-size: 12vw !important;
+    width: 100%;
+  }
 
-    #images h4 {
-        font-size: 13px;
-    }
+  #life {
+    font-size: 17px;
+    margin: 0 auto 0 auto;
+  }
 
-    .foot-container {
-        font-size: 16px
-    }
+  .mnt {
+    margin: 0 auto 0 auto;
+    position: absolute;
+    bottom: 180px;
+    width: 100%;
+    left: 1%;
+    right: 1%;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left
+          bottom, from(transparent), color-stop(0.5, transparent), to(white));
+  }
+
+  .insight {
+    margin: auto;
+    padding: 5px;
+    width: 90%;
+    line-height: 2rem;
+  }
+
+  #images h4 {
+    font-size: 13px;
+  }
+
+  .foot-container {
+    font-size: 16px;
+  }
 }
